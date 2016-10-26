@@ -150,18 +150,16 @@
          <framework src="CoreGraphics.framework" />
          <framework src="AVFoundation.framework" />
 
-         <preference name="CAMERA_USAGE_DESCRIPTION" default=" " />
          <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-             <string>$CAMERA_USAGE_DESCRIPTION</string>
+             <string>Scan QRCode and share pictures</string>
          </config-file>
 
-         <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default=" " />
          <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-             <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
+             <string>Import pictures from your library</string>
          </config-file>
 
          <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-             <string></string>
+             <string>Use the GPS for live navigation</string>
          </config-file>
 
      </platform>
