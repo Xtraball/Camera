@@ -158,10 +158,6 @@
              <string>Import pictures from your library</string>
          </config-file>
 
-         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-             <string>Use the GPS for live navigation</string>
-         </config-file>
-
      </platform>
 
     <!-- blackberry10 -->
